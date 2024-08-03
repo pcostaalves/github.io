@@ -40,10 +40,6 @@ const isMobile = navigator.userAgentData.mobile;
 if(isMobile)
   {
     document.addEventListener('touchstart', jump);
-    console.log("Jump com touchstart");
-    alert("touchstart");
   }else{
     document.addEventListener('keydown', jump);
-    console.log("Jump com keydown");
-    alert("keydown");
   }
